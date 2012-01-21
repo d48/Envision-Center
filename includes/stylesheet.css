@@ -1,0 +1,121 @@
+body {
+	background-color: #fff;
+	margin: 30px;
+	padding: 0px;
+	height: auto;
+	width: auto;
+	text-align: center;
+	background-image: url(../images/background-gradient-tile.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 26px;
+	color: #010101;
+
+}
+
+a:link, a:visited, a:active {
+	color: #0e105e !important;
+	text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+a img { border: none !important; }
+ul { list-style-type: disc !important; }
+li { display: inline; list-style-type: disc !important;}
+
+#wrapper {
+	min-height: 500px;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+/* Header
+*********************************************************/
+#header { float: left; }
+#header h1 { color: #0d004c; display: inline; font-size: 29px; float: left; margin: 60px 0 0 0px;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+#subheader h2 { color: #ea0606; font-size: 22px; font-style: italic; font-weight: normal; }
+#subheader h3 { background: url(../images/icon-zoom.png) right center no-repeat; font-size: 16px; font-style: italic; font-weight: normal; margin:0 auto; padding-right: 25px; width: 280px; }
+#logo { float: left; }
+
+
+/* Photos
+*********************************************************/
+.caption { font-size: 21px; font-style: italic; }
+.caption.office{ font-size: 20px; }
+#photos-main-auditorium, #photos-victory-auditorium{ margin: 0 auto 30px auto; width: 897px;}
+#photos-main td, #photos-victory-auditorium td { margin: 0; padding: 0 16px 0px 0; }
+#photos-studio-office { margin: 0 auto 30px auto; width: 917px;}
+#photos-studio td { margin: 0; padding: 0 8px 0px 0; }
+#sunset-extra td, #sunset-extra{ margin: 0 !important; padding: 0 !important; }
+.studio-1 { margin-bottom: 68px; margin-right: -1px; }
+.studio-2 { margin-left: -1px; margin-top: 68px; }
+
+
+/* Footer
+*********************************************************/
+#features { background-color: #048ec8; border: 3px solid #1b1d66; color: #fff; margin: 0 auto; padding: 20px; width: 824px; 
+border-radius: 5px;
+-moz-border-radius: 5px;
+margin-bottom: 40px;
+}
+#features ul { float: left; font-size: 105%; width: 520px; margin: 0; padding: 0; text-align: justify; }
+#footer { color: #0e105e; float: left; font-size: 22px; margin: 0 auto; padding-bottom: 30px; margin-top: 20px; width: 1000px;}
+#footer h2 { font-size: 25px; font-weight: normal;} 
+#footer a { font-size: 23px; }
+#address { float: left; margin: 40px auto 0 auto; text-align: center; width: 1000px; }
+#contact {  margin: 0 auto 30px auto; width: 620px; }
+#email { float: left; width: 300px; }
+#phone { float: left; width: 300px; }
+
+/* button
+*********************************************************/
+#ButtonDownload { }
+.button {
+   border-top: 1px solid #1a1d66;
+   background: #0e0f47;
+   background: -webkit-gradient(linear, left top, left bottom, from(#4a4d9d), to(#0e0f47));
+   background: -webkit-linear-gradient(top, #4a4d9d, #0e0f47);
+   background: -moz-linear-gradient(top, #4a4d9d, #0e0f47);
+   background: -ms-linear-gradient(top, #4a4d9d, #0e0f47);
+   background: -o-linear-gradient(top, #4a4d9d, #0e0f47);
+   padding: 8.5px 17px;
+   padding-right: 20px;
+   -webkit-border-radius: 13px;
+   -moz-border-radius: 13px;
+   border-radius: 13px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 23px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   font-style: italic;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #4e52bd;
+   background: #4e52bd;
+   color: #ccc;
+   text-decoration: none;
+   }
+.button:active {
+   border-top-color: #3e4190;
+   background: #3e4190;
+   }
+a.button:link, a.button:active, a.button:visited { color: #fff !important; }
+.icon-pdf { position: relative; top: 5px; }
+
+#fancybox-left-ico { 
+ left: 20px !important; 
+} 
+
+#fancybox-right-ico { 
+ right: 20px !important; 
+ left: auto !important; 
+} 
