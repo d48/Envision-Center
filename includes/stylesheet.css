@@ -28,18 +28,19 @@ li { display: inline; list-style-type: disc !important;}
 #wrapper {
 	min-height: 500px;
 	margin: 0 auto;
-	width: 1000px;
+	width: 950px;
 }
 
 /* Header
 *********************************************************/
 #header { float: left; }
-#header h1 { color: #0d004c; display: inline; font-size: 29px; float: left; margin: 60px 0 0 0px;
+#header h1 { color: #0d004c; display: inline; font-size: 29px; float: left; margin: 0; padding: 0;
 	text-shadow: 2px 2px 3px rgba(0,0,0,0.1);
 }
-#subheader h2 { color: #ea0606; font-size: 22px; font-style: italic; font-weight: normal; }
-#subheader h3 { background: url(../images/icon-zoom.png) right center no-repeat; font-size: 16px; font-style: italic; font-weight: normal; margin:0 auto; padding-right: 25px; width: 280px; }
+#header h2 { color: #ea0606; display: inline; float: right; font-size: 18px; font-style: italic; font-weight: normal; margin: 30px 15px 0; padding: 0; }
+#subheader h3 { background: url(../images/icon-zoom.png) right center no-repeat; font-size: 16px; font-style: italic; font-weight: normal; margin: 30px auto 0; padding-right: 25px; width: 280px; }
 #logo { float: left; }
+
 
 
 /* Photos
@@ -73,7 +74,7 @@ margin-bottom: 40px;
 
 /* button
 *********************************************************/
-#ButtonDownload { }
+#ButtonPromo {  }
 .button {
    border-top: 1px solid #1a1d66;
    background: #0e0f47;
