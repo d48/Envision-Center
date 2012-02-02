@@ -46,14 +46,16 @@
 			
 			<div id="subheader">
 				<div class="promo">
-					<a id="ButtonPromo" class="button special" href="#"><span class="title"><strong>DISCOUNT</strong> On Turn Key Worship / Live Event Center</span><span class="click">Click for Details</span><img src="images/badge-special.png" width="59" height="58" alt="special" class="icon-special"></a>
-					<div id="PromoDetails">
-						<h1>AVAILABLE NOW!</h1>
-						<p>Discounted Weekly Rentals on One Year Lease including instruments and equipment.* Turn Key. No Set up/Take Down. Weekly meetings available Sunday 3:30p-6:30p, Mon/Tues, Wed possible. All weekdays in morning/afternoon.</p>
-						<p>Victory Auditorium, Seats 250, 3000 sq ft, $2500 pr mo.<br />
-						Sunset Studio Auditorium, Seats 150, 2100 sq ft, $2000 pr mo<br />
-						2nd weekly meeting at further discount</p>
-						<p>Both Auditoriums include additional 2000 sq foot support area with furnished child care/support rooms. * Both Auditoriums include keyboard, drum set, playback monitors, multi-channel audio mixing board, speakers, monitors, microphones, projector with mounted screen, stage lighting, special lighting, air/heat, parking.</p> 
+					<a id="ButtonPromo" class="button special" href="#PromoDetails"><span class="title"><strong>DISCOUNT</strong> On Turn Key Worship / Live Event Center</span><span class="click">Click for Details</span><img src="images/badge-special.png" width="59" height="58" alt="special" class="icon-special"></a>
+					<div style="display:none;">
+						<div id="PromoDetails">
+							<h1>AVAILABLE NOW!</h1>
+							<p>Discounted Weekly Rentals on One Year Lease including instruments and equipment.* Turn Key. No Set up/Take Down. Weekly meetings available Sunday 3:30p-6:30p, Mon/Tues, Wed possible. All weekdays in morning/afternoon.</p>
+							<p>Victory Auditorium, Seats 250, 3000 sq ft, $2500 pr mo.<br />
+							Sunset Studio Auditorium, Seats 150, 2100 sq ft, $2000 pr mo<br />
+							2nd weekly meeting at further discount</p>
+							<p>Both Auditoriums include additional 2000 sq foot support area with furnished child care/support rooms. * Both Auditoriums include keyboard, drum set, playback monitors, multi-channel audio mixing board, speakers, monitors, microphones, projector with mounted screen, stage lighting, special lighting, air/heat, parking.</p> 
+						</div>
 					</div>
 				</div>
 				<h3>*note: click on images for larger view</h3>
@@ -181,6 +183,14 @@
 						return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
 					}
 				});
+
+				$("a#ButtonPromo").fancybox({
+					'hideOnContentClick' : true
+				});
+
+				$("a#inline").fancybox({
+						'hideOnContentClick': true
+							});
 
 			});
 		</script>

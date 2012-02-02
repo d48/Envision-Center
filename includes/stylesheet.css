@@ -64,10 +64,10 @@ border-radius: 5px;
 margin-bottom: 40px;
 }
 #features ul { float: left; font-size: 105%; width: 520px; margin: 0; padding: 0; text-align: justify; }
-#footer { color: #0e105e; float: left; font-size: 22px; margin: 0 auto; padding-bottom: 30px; margin-top: 20px; width: 1000px;}
+#footer { color: #0e105e; float: left; font-size: 22px; margin: 0 auto; padding-bottom: 30px; margin-top: 20px; width: 950px;}
 #footer h2 { font-size: 25px; font-weight: normal;} 
 #footer a { font-size: 23px; }
-#address { float: left; margin: 40px auto 0 auto; text-align: center; width: 1000px; }
+#address { float: left; margin: 40px auto 0 auto; text-align: center; width: 950px; }
 #contact {  margin: 0 auto 30px auto; width: 620px; }
 #email { float: left; width: 300px; }
 #phone { float: left; width: 300px; }
@@ -142,5 +142,5 @@ a.button:link, a.button:active, a.button:visited { color: #fff !important; }
 
 /* Modals 
 *********************************************************/
-#PromoDetails { display:none; }
+#PromoDetails { background-color: #fff; height: 385px; width: 780px; }
 
