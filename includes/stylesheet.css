@@ -74,7 +74,10 @@ margin-bottom: 40px;
 
 /* button
 *********************************************************/
-#ButtonPromo {  }
+#ButtonPromo .title { float: left; font-size: 18px; font-style: normal; line-height: 22px; margin-top: -3px; text-align: center; width: 226px; }
+#ButtonPromo .title { float: left; font-size: 18px; font-style: normal; line-height: 22px; margin-top: -3px; text-align: center; width: 226px; }
+#ButtonPromo .title strong { color: #fcd409; font-weight: normal; }
+#ButtonPromo .click { float: left; font-size: 16px; font-style: normal; line-height: 18px; margin: 2px -33px 0 15px; text-align: center; width: 60px; }
 .button {
    border-top: 1px solid #1a1d66;
    background: #0e0f47;
@@ -91,7 +94,7 @@ margin-bottom: 40px;
    -webkit-box-shadow: rgba(96,145,166,1) 4px 4px 4px;
    -moz-box-shadow: rgba(96,145,166,1) 4px 4px 4px;
    box-shadow: rgba(96,145,166,1) 4px 4px 4px;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   /* text-shadow: rgba(0,0,0,.4) 0 1px 0; */
    color: white;
    font-size: 23px;
    font-family: Helvetica, Arial, Sans-Serif;
@@ -120,11 +123,13 @@ background: linear-gradient(top,  #d80303 0%,#db0303 59%,#b10000 100%); /* W3C *
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d80303', endColorstr='#b10000',GradientType=0 ); /* IE6-9 */
 border-color: #fc4a4a;
 border-width: 2px;
+display: inline-block;
+height: 42px;
 
 }
 a.button:link, a.button:active, a.button:visited { color: #fff !important; }
 .icon-pdf { position: relative; top: 5px; }
-.icon-special { position: relative; left: 22px; top: 20px; }
+.icon-special { float:left; position: relative; bottom: 16px; left: 26px; }
 
 #fancybox-left-ico { 
  left: 20px !important; 
@@ -134,3 +139,8 @@ a.button:link, a.button:active, a.button:visited { color: #fff !important; }
  right: 20px !important; 
  left: auto !important; 
 } 
+
+/* Modals 
+*********************************************************/
+#PromoDetails { display:none; }
+
