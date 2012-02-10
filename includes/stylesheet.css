@@ -75,10 +75,10 @@ margin-bottom: 40px;
 
 /* button
 *********************************************************/
-#ButtonPromo .title { float: left; font-size: 18px; font-style: normal; line-height: 22px; margin-top: -3px; text-align: center; width: 226px; }
-#ButtonPromo .title { float: left; font-size: 18px; font-style: normal; line-height: 22px; margin-top: -3px; text-align: center; width: 226px; }
-#ButtonPromo .title strong { color: #fcd409; font-weight: normal; }
-#ButtonPromo .click { float: left; font-size: 16px; font-style: normal; line-height: 18px; margin: 2px -33px 0 15px; text-align: center; width: 60px; }
+#ButtonPromo { padding: 8px 20px 8px 5px; }
+#ButtonPromo .title { float: left; font-size: 14px; font-style: normal; line-height: 16px; margin-top: 4px; text-align: center; width: 113px; }
+#ButtonPromo .title strong { color: #fcd409; display:block; font-size: 18px; }
+#ButtonPromo .click { float: left; font-size: 14px; font-style: normal; font-weight: bold; line-height: 18px; margin: 1px -60px 0 5px; text-align: left; width: 356px; }
 .button {
    border-top: 1px solid #1a1d66;
    background: #0e0f47;
@@ -145,7 +145,7 @@ a.button:link, a.button:active, a.button:visited { color: #fff !important; }
 
 /* Modals 
 *********************************************************/
-#PromoDetails { background-color: #fff; height: 385px; padding: 0 20px; width: 710px; }
+#PromoDetails { background-color: #fff; height: 415px; padding: 0 20px; width: 710px; }
 #PromoDetails p { font-size: 18px; }
 #PromoDetails h1 { font-size: 28px; font-weight: normal; }
 #PromoDetails a { color: #070de5 !important; }
