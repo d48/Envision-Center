@@ -1,3 +1,15 @@
+
+/* Table of Contents
+
+	#Header
+	#Photos
+	#Footer
+	#Buttons
+	#Modals
+
+*/
+
+
 body {
 	background-color: #fff;
 	margin: 30px;
@@ -149,4 +161,4 @@ a.button:link, a.button:active, a.button:visited { color: #fff !important; }
 #PromoDetails p { font-size: 18px; }
 #PromoDetails h1 { font-size: 28px; font-weight: normal; }
 #PromoDetails a { color: #070de5 !important; }
-
+.highlight { color: #070de5; }
