@@ -157,7 +157,7 @@ a.button:link, a.button:active, a.button:visited { color: #fff !important; }
 
 /* Modals 
 *********************************************************/
-#PromoDetails { background-color: #fff; padding: 0 20px; width: 710px; }
+#PromoDetails { background-color: #fff; padding: 0 20px; width: 550px; }
 #PromoDetails p { font-size: 18px; }
 #PromoDetails h1 { font-size: 28px; font-weight: normal; }
 #PromoDetails a { color: #070de5 !important; }
